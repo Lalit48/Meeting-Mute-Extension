@@ -40,7 +40,7 @@ meeting-mute-extension/
 
 1. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/your-username/meeting-mute-extension.git
+   git clone https://github.com/Lalit48/meeting-mute-extension.git
    ```
 
 2. Open Chrome and go to `chrome://extensions/`.
