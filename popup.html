@@ -1,10 +1,55 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Mute Meeting</title>
+  <title>Meeting Audio Control</title>
   <style>
-    body { font-family: Arial, sans-serif; text-align: center; padding: 10px; }
-    button { margin: 5px; padding: 10px; font-size: 16px; }
+    /* Basic styling for the popup */
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 20px;
+      margin: 0;
+      width: 200px;
+      height: 150px;
+      background-color: #f0f0f0;
+    }
+
+    h2 {
+      font-size: 18px;
+      margin: 10px 0;
+      color: #333;
+    }
+
+    /* Style for buttons */
+    button {
+      width: 80px;
+      padding: 10px;
+      font-size: 14px;
+      margin: 5px;
+      cursor: pointer;
+      border: none;
+      border-radius: 5px;
+      color: #fff;
+      transition: background-color 0.3s;
+    }
+
+    /* Mute button style */
+    #muteButton {
+      background-color: #e74c3c;
+    }
+
+    #muteButton:hover {
+      background-color: #c0392b;
+    }
+
+    /* Unmute button style */
+    #unmuteButton {
+      background-color: #2ecc71;
+    }
+
+    #unmuteButton:hover {
+      background-color: #27ae60;
+    }
   </style>
 </head>
 <body>
